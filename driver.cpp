@@ -1,3 +1,5 @@
+//Ferguson, Matthew c59740856
+//cpsc 212 pargas lab02
 #include "Stack.h"
 using namespace std;
 

@@ -1,3 +1,5 @@
+ //Ferguson, Matthew c59740856
+//cpsc 212 pargas lab02
 #ifndef Stack_h
 #define Stack_h
 #include <iostream>
