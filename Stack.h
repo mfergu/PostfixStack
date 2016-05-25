@@ -3,6 +3,7 @@
 #ifndef Stack_h
 #define Stack_h
 #include <iostream>
+#include <queue>
 #include <stack>
 #include <iomanip>
 #include <fstream>
@@ -15,6 +16,9 @@ class infixToPostfix{
     std::string getPostfix();
     ~infixToPostfix();
   private:
+    bool testParenths(const std::string);
+    bool testSequence(const std::string);
+    void makePostfix( const std::string);
     bool isOperand(const char);
     bool isOperator(const char);
     bool isRightAssoc(const char);
